@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    background-color: aliceblue;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+button{
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.page-nav{
+    background-color: wheat;
+    border: 1px solid black;
+    position: relative;
+}
+.page-nav h1{
+    margin: 20px;
+}
+
+.button-checkout{
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA; /* blue */
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.button-checkout:hover {
+    background-color: #008CBA; /* blue */
+    color: white;
+}
+
+.page-content{
+    /*con las 3 lineas de abajo lo hago responsive al contenedor*/
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
+.product-container{
+    margin-left: 20px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+/*Efecto de cuadro transparente cuando se pasa el cursor*/
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.product-container img{
+    width: 300px;
+}
+
+.product-container h1{
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.button-add {
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+  
+.button-add:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
